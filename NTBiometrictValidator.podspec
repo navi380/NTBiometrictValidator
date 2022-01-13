@@ -30,7 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '14.0'
 
-  s.source_files = 'NTBiometrictValidator/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
+  
+  s.swift_version = '5.0'
+  s.platforms = {
+      "ios": "12.0"
+  }
   
   # s.resource_bundles = {
   #   'NTBiometrictValidator' => ['NTBiometrictValidator/Assets/*.png']
