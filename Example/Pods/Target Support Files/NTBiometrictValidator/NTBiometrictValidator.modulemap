@@ -1,0 +1,6 @@
+framework module NTBiometrictValidator {
+  umbrella header "NTBiometrictValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}
